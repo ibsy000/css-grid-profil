@@ -54,6 +54,32 @@
     grid-area: posts; 
 }
 
+.post-card{
+    border: 1px solid black;
+    padding: 1vh;
+}
+
+.card-title{
+    margin: 10px 0;
+}
+
+.card-links{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.card-links a{
+    text-decoration: none;
+    color: black;
+}
+
+.card-links a:hover{
+    text-decoration: underline;
+    color: white;
+    background-color: rgb(50, 102, 8)
+}
+
 /* .container > div {
     border: 2px solid black;
   } */
